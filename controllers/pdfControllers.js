@@ -30,7 +30,7 @@ let getPdf = async (req, res, next) => {
                             companyName: data[i].companyName,
                             companyAdress: data[i].companyAdress,
                             invoiceNo: data[i].invoiceNo,
-                            itemName: data[i].itemName
+                            item: data[i].item
                         };
                         // console.log("replace", replace);
 
